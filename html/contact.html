@@ -18,6 +18,7 @@
         <!-- FONTAWESOME ICONS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
+
     </head>
     <body>
 
@@ -41,7 +42,7 @@
         </header>
 
         <!-- CONTACT FORM SECTION -->
-        <section class="contact-section">
+        <section class="contact-section" aria-label="contact-section">
             <aside>
                 <hgroup>
                     <h2>Let's get in touch</h2>
@@ -58,16 +59,16 @@
             <form action="#" method="post" id="contact_form">
                 <h2>Get in touch</h2>
                   <label for="name"></label>
-                  <input type="text" placeholder="Name" name="name" id="name_input" required>
+                  <input type="text" placeholder="Name" name="name" id="name" required>
     
                   <label for="email"></label>
-                  <input type="email" placeholder="Email" name="email" id="email_input" required>
+                  <input type="email" placeholder="Email" name="email" id="email" required>
     
-                  <label for="name"></label>
-                  <input type="text" placeholder="Phone number" name="telephone" id="telephone_input" required>
+                  <label for="phone"></label>
+                  <input type="text" placeholder="Phone number" name="telephone" id="phone" required>
     
                   <label for="message"></label>
-                  <textarea name="message" placeholder="Message" id="message_input" cols="30" rows="5" required></textarea>
+                  <textarea name="message" placeholder="Message" id="message" cols="30" rows="5" required></textarea>
     
                   <input type="submit" value="Send message" id="form_button" class="btn primary-btn contact-form-btn"/>
               </form>
@@ -84,12 +85,13 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li class="social-media-links">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook" aria-label="facebook"></a>
+                    <a href="#" class="fa fa-twitter" aria-label="twitter"></a>
+                    <a href="#" class="fa fa-instagram" aria-label="instagram"></a>
                 </li>
             </ul>
         </footer>
     </body>
     <script src="../js/script.js"></script>
+    
 </html>
