@@ -82,8 +82,42 @@
 
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 768px) {
-    /* HERO SECTION */
+
+/* IPAD AIR AND MINI AND BIGGER */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .hero-section {
+        height: 60vh;
+    }
+
+}
+
+/* IPAD PRO AND BIGGER */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .hero-section {
+        height: 55vh;
+    }
+    .about-section img {
+        width: 500px;
+    }
+    .about-section p {
+        font-size: 1.2rem;
+    }
+    .newsletter-section h2 {
+        font-size: 2.4rem;
+    }
+    .newsletter-section p {
+        font-size: 1.4rem;
+    }
+    
+    .newsletter-section [type='email'] {
+        font-size: 1.6rem;
+    }
+    
+}
+
+/* LAPTOP SIZES AND BIGGER */
+@media only screen and (min-device-width: 1200px) { 
+      /* HERO SECTION */
     .hero-section {
         height: 90vh;
     }
@@ -130,6 +164,5 @@
         font-size: 1.5rem;
         margin-top: 50px;
     }
-    
     
 }

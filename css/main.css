@@ -72,6 +72,7 @@ header {
 }
 nav {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -80,7 +81,7 @@ nav {
     height: 80px;
 }
 
-#nav-ul {
+nav ul {
     display: none;
     list-style: none;
     text-transform: uppercase;
@@ -153,7 +154,7 @@ footer li {
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {
     /* NAVIGATION BAR */
-    #nav-ul {
+    nav ul {
         display: flex;
         justify-content: center;
         align-items: center;
