@@ -41,6 +41,46 @@
 .about-section img {
     width: 300px;
 }
+
+/* NEWSLETTER SECTION  */
+.newsletter-section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.newsletter-section h2,h3 {
+    padding: 10px 0px;
+}
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+.newsletter-btn {
+    border-radius: 3px;
+}
+
+.newsletter-section [type='email'] {
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #474544;
+    color: #000;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    padding: 10px 0px;
+}
+
+.newsletter-btn {
+    height: 80%;
+    margin-top: 25px;
+}
+
+
+
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {
     /* HERO SECTION */
@@ -72,5 +112,24 @@
     .about-section img {
         width: 700px;
     }
+
+    /* NEWSLETTER SECTION  */
+    .newsletter-section h2 {
+        font-size: 2.8rem;
+    }
+    .newsletter-section p {
+        font-size: 1.8rem;
+    }
+    
+    .newsletter-section [type='email'] {
+        font-size: 2rem;
+    }
+
+    .newsletter-btn {
+        height: 90%;
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+    
     
 }
