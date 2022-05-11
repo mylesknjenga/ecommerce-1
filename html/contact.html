@@ -1,4 +1,4 @@
-<!-- THIS IS THE HOMEPAGE -->
+<!-- THIS IS THE CONTACT PAGE -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,11 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- PAGE TITLE -->
-        <title>Homepage | Star Records</title>
+        <title>Contact Us | Star Records</title>
 
         <!-- CSS STYLESHEETS -->
         <link rel="stylesheet" href="../css/main.css" type="text/css">
-        <link rel="stylesheet" href="../css/home.css" type="text/css">
+        <link rel="stylesheet" href="../css/contact.css" type="text/css">
         
 
         <!-- FONTAWESOME ICONS -->
@@ -40,41 +40,37 @@
             </nav>
         </header>
 
-        <!-- HERO SECTION -->
-        <section class="hero-section">
-            <h1>EVERY GREAT ALBUM<br> HAS A STORY</h1>
-            <a class="btn primary-btn hero-btn" href="shop.html">Shop the store</a>
-        </section>
-
-        <!-- ABOUT SECTION -->
-        <section class="about-section">    
-            <h2>About Us: The Story of Star Records</h2>
-            <div class="about-section-content">
-                <p>
-                    At Star Records we have made it our goal to provide great sound quality through one
-                    the most elegant methods of sound. We offer a tactile experience of music in this age of
-                    digital ephemerality. Check out our shop and see what we have to offer. New albums are
-                    coming soon, so subscribe to our newsletter below to be the first to know and receive offers
-                    on select products.
-                </p>
-                <figure class="about-section-img">
-                    <img src="../images/about-img.jpeg" alt="A collection of vinyl albums">
-                </figure>
-            </div>
-        </section>
-
-        <!-- NEWSLETTER SECTION -->
-        <section class="newsletter-section">
-            <h2>
-                Subscribe to our Newsletter
-            </h2>
-            <p>Save 10% off your next order when you join!</p>
-            <form class="newsletter-form">
-                <label for="email"></label>
-                <input type="email" placeholder="Email" name="email" id="email_input" required>
+        <!-- CONTACT FORM SECTION -->
+        <section class="contact-section">
+            <aside>
+                <hgroup>
+                    <h2>Let's get in touch</h2>
+                    <h3>We are open for any suggestion or just to have a chat</h3>
+                </hgroup>
+                <div class="contact-info">
+                    <p>Address: 200 West 21th Street, Suite 721 Smallville Kansas 10016</p>
+                    <p>Phone: + 1235 2355 9</p>
+                    <p>Email: info@starrecords.com</p>
+                    <p>Website starrecords.com</p>
+                </div>
+            </aside>
     
-                <input type="submit" value=">" id="submit-button" class="btn secondary-btn newsletter-btn"/>
-            </form>
+            <form action="#" method="post" id="contact_form">
+                <h2>Get in touch</h2>
+                  <label for="name"></label>
+                  <input type="text" placeholder="Name" name="name" id="name_input" required>
+    
+                  <label for="email"></label>
+                  <input type="email" placeholder="Email" name="email" id="email_input" required>
+    
+                  <label for="name"></label>
+                  <input type="text" placeholder="Phone number" name="telephone" id="telephone_input" required>
+    
+                  <label for="message"></label>
+                  <textarea name="message" placeholder="Message" id="message_input" cols="30" rows="5" required></textarea>
+    
+                  <input type="submit" value="Send message" id="form_button" class="btn primary-btn contact-form-btn"/>
+              </form>
         </section>
 
         <!-- FOOTER  -->
